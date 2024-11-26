@@ -44,6 +44,7 @@ export const book = {
   genre: '',
   isRead: true,
 };
+console.log("Initial Book:", book);//log initial book object
 
 // Please note: The Add book does not actually work!
 // This exercise is just about practicing event handling
@@ -55,6 +56,7 @@ function App() {
     book.author = 'author';
     book.genre = 'genre';
     book.isRead = true;
+    console.log("Updated Book:", book);//log updated book object
   }
 
   return (
